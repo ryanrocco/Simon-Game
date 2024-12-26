@@ -23,7 +23,7 @@ function btnFlash(btn) {
 }
 
 function levelUp() {
-  var audio = new Audio("/soundefx/levelup.wav");
+  var audio = new Audio("/levelup.wav");
   audio.play();
   userSeq = [];
   level++;
@@ -66,7 +66,7 @@ function check(idx) {
 function playGameOverSound() {
   if (!gameOverAudio) {
     // Ensure the sound plays only once
-    gameOverAudio = new Audio("/soundefx/gameover.mp3");
+    gameOverAudio = new Audio("gameover.mp3");
     gameOverAudio.play();
   }
 }

@@ -66,7 +66,7 @@ function check(idx) {
 function playGameOverSound() {
   if (!gameOverAudio) {
     // Ensure the sound plays only once
-    gameOverAudio = new Audio("gameover.mp3");
+    gameOverAudio = new Audio("/gameover.mp3");
     gameOverAudio.play();
   }
 }
